@@ -1,0 +1,34 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Full-width Hero Image */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 60vh; /* Adjust height as needed */
+            background: url('prev0.png') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Dark Overlay for Better Text Visibility */
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        }
+
+        /* Ensures text is above overlay */
+        .hero-content {
+            position: relative;
+            text-align: center;
+        }

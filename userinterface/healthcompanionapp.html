@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Health Companion App - Case Study</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            text-align: left;
+        }
+        section {
+            max-width: 500px;
+            margin: auto;
+        }
+		
+		.thearticle{
+			margin-left: 400px;
+			margin-right: 400px;
+		}
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation Bar (Unchanged) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">David Perron</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#research">User Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#personas">Personas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prototype">Prototype</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#usability">Usability Testing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <br/><br/>
+	
+	<div class="thearticle">
+
+		<header class="container my-5">
+			<h1>Health Companion App - Case Study</h1>
+			<p>A UX design journey to create a medication management solution.</p>
+			<p>By: David Perron</p>
+			<img src="https://cdn.asoworld.com/img/bc0c93237c1b4ed7984289bd4bc745dd.jpg" class="card-img-top" alt="Terrain Generation">
+		</header>
+		
+		<!-- Introduction Section -->
+		<section id="introduction" class="container my-5">
+			<h2>Introduction</h2>
+			<p>A few weeks ago, one of my friends had to miss a meeting for a project we’re working on. It turned out he had to visit his hospitalized grandfather. He would then vent about him forgetting to take his essential medication. The day after, we were realizing the project we were working on was going nowhere, then I remembered my good friend’s story the day before. Once I proposed finding a solution to the problem with his grandfather, we all started exploring.</p>
+			
+		</section>
+
+		<!-- The Challenge -->
+		<section id="challenge" class="container my-5">
+			<h2>The Challenge</h2>
+			<p>Considering who our potential users be, we need to find what the demographic is for people who are under much medication and/or have a deteriorating health. Then, we need to find a solution which is simple and accessible to that demographic. The question arises of how to make the solution work. The goal of this app, its objective, will be to facilitate the managing of medications and necessary doctor’s appointments, and to ultimately avoid situations like that of my friend’s grandfather.</p>
+		</section>
+
+		<!-- User Research -->
+		<section id="research" class="container my-5">
+			<h2>User Research</h2>
+			<p>To find out the demographic of our target user base, we will be distributing surveys to doctors around the country by email and social media. We will have surveys for both patients and doctors and we will encourage doctors to distribute those surveys to patients.</p>
+			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCS_R_o8YoBLAHhxEYYLsYI3sARSfz3DoPl666Z-HHeaV9Aw/viewform?usp=header">Patient’s Survey</a></p>
+			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdyWpNCbq0RiMsZc528dVSo4gVt4g7S7Uks2cFDreSmMJS2KA/viewform?usp=header">Doctor’s Survey</a></p>
+			<p>Based on the survey responses, we will determine the typical demographic of users of our product. This includes the age group, which disease they typically suffer from and if they would be interested in a software based solution.</p>
+			<img src="form1.png" class="card-img-top" alt="Terrain Generation">
+		</section>
+
+		<!-- Personas -->
+		<section id="personas" class="container my-5">
+			<h2>Personas</h2>
+			<p style="margin-bottom: 50px;">Based on user research, we’ve found doctors are not willing to change their current system for reminders and are usually happy about it, so there isn’t much of a demand. For patients however, they often consult different doctors for different purposes, and they all have different ways to communicate reminders, making this a hassle to the patient. We have determined our core user base are patients of different backgrounds, with different levels of tech savyness.</p>
+			
+			<div class="card mb-4 p-3 text-center">
+				<img src="personamiller.jpg" class="rounded mx-auto d-block img-fluid" style="max-width: 350px; height: auto;" alt="George Miller">
+				<div class="mt-3">
+					<h3>George Miller</h3>
+					<p><strong>Age:</strong> 70 | <strong>Occupation:</strong> Retired Accountant</p>
+					<p><strong>Bio:</strong> George enjoys reading and watching classic movies. He tries to stay independent but often forgets to take his medication on time. He relies on sticky notes and occasional reminders from his daughter, but still misses important appointments and medication doses.</p>
+					<p><strong>🚑 Pain Points & Struggles:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Forgets to take medication due to age-related memory decline</li>
+						<li>Has difficulty using complex technology</li>
+						<li>Struggles with mobility, making doctor visits a hassle</li>
+						<li>Finds it overwhelming to track multiple medications</li>
+					</ul>
+					<p><strong>🎯 Goals & Needs:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>A simple, easy-to-use app that reminds him about medications</li>
+						<li>Voice-enabled or large-text UI for better accessibility</li>
+						<li>A way to notify family members if he misses a dose</li>
+						<li>An automatic appointment scheduling system</li>
+					</ul>
+					<p><strong>🌟 Motivations:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Wants to stay independent as long as possible</li>
+						<li>Wishes to be healthy to spend more time with grandkids</li>
+						<li>Needs an easy way to manage multiple medications without feeling overwhelmed</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="card mb-4 p-3 text-center">
+				<img src="personamorgan.jpg" class="rounded mx-auto d-block img-fluid" style="max-width: 350px; height: auto;" alt="Jessica Morgan">
+				<div class="mt-3">
+					<h3>Jessica Morgan</h3>
+					<p><strong>Age:</strong> 35 | <strong>Occupation:</strong> Marketing Manager</p>
+					<p><strong>Bio:</strong> Jessica is a dedicated 35 year old single mother balancing a full-time remote job with taking care of her daughter, Lily, who suffers from chronic asthma and frequent colds.<br/>
+She constantly finds herself overwhelmed with work deadlines, managing household chores, and remembering Lily’s medication schedule. She has missed giving her daughter doses before, leading to emergency doctor visits, which makes her feel guilty and stressed.<br/>
+Although she uses a phone calendar for appointments, she often ignores or forgets reminders because of her chaotic daily routine.
+</p>
+					<p><strong>🚑 Pain Points & Struggles:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Constantly juggling work, parenting, and health responsibilities</li>
+						<li>Misses medication doses for Lily due to distractions</li>
+						<li>Finds reminder apps too generic and easy to dismiss</li>
+						<li>Emergency asthma attacks make her anxious about forgetting medication</li>
+						<li>No real-time alerts when Lily misses a dose</li>
+					</ul>
+					<p><strong>🎯 Goals & Needs:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>A smart medication reminder that won’t let her ignore it</li>
+						<li>Caregiver notifications to track Lily’s health without stress</li>
+						<li>Emergency notification if the reminder app wasn’t opened</li>
+						<li>A system that adjusts reminders based on Lily’s daily routine</li>
+					</ul>
+					<p><strong>🌟 Motivations:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Wants to be a great mom without feeling constantly guilty</li>
+						<li>Needs an app that simplifies tracking medications & appointments</li>
+						<li>Hopes to prevent hospital visits by staying on top of Lily’s condition</li>
+						<li>Wants something easy, quick, and effective so she doesn’t get overwhelmed</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="card mb-4 p-3 text-center">
+				<img src="personacarter.jpg" class="rounded mx-auto d-block img-fluid" style="max-width: 350px; height: auto;" alt="Alex Carter">
+				<div class="mt-3">
+					<h3>Alex Carter</h3>
+					<p><strong>Age:</strong> 20 | <strong>Occupation:</strong> College Student</p>
+					<p><strong>Bio:</strong> Alex is a 20 year old college sophomore who struggles with time management, focus, and organization due to his ADHD. He takes prescribed medication to help with concentration and anxiety, but he frequently forgets doses due to his distracted nature and irregular schedule.<br/>
+Despite setting reminders on his phone, he often ignores or snoozes them, leading to missed doses and inconsistent effects. This results in difficulty focusing in class, procrastination, and increased stress when assignments pile up.<br/>
+Alex wants to stay on top of his medications, assignments, and mental health but needs an app that seamlessly integrates into his routine without overwhelming him.<br/>
+</p>
+					<p><strong>🚑 Pain Points & Struggles:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Easily distracted, often forgets to take medication</li>
+						<li>Ignores notifications or forgets after dismissing them</li>
+						<li>Struggles with time blindness—underestimating how long tasks take</li>
+						<li>Misses doctor appointments due to disorganization</li>
+						<li>Finds existing health apps too rigid or overwhelming</li>
+					</ul>
+					<p><strong>🎯 Goals & Needs:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Non-intrusive reminders that catch his attention in an engaging way</li>
+						<li>Gamified streak tracking to encourage consistent medication intake</li>
+						<li>Auto-snooze feature so he gets follow-ups if he ignores a reminder</li>
+						<li>Quick-access calming techniques for moments of anxiety</li>
+						<li>Integration with smartwatches & task apps (e.g., Google Calendar, Notion)</li>
+						<li>Simple, distraction-free UI to avoid cognitive overload</li>
+					</ul>
+					<p><strong>🌟 Motivations:</strong></p>
+					<ul class="text-start mx-auto" style="max-width: 600px;">
+						<li>Wants to improve focus and academic performance</li>
+						<li>Doesn’t want to feel dependent on others to remind him</li>
+						<li>Needs an app that adapts to his ADHD-driven habits rather than just sending notifications he’ll ignore</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- User Journey -->
+		<section id="user-journey" class="container my-5">
+            <h2>User Journey</h2>
+			<p style="margin-bottom: 50px;">Based on user needs, we determined we would need a mobile app which would make the user go through the following experiences with our application, which will automatically send reminders in the form of notifications to the user, emitting a special sound proper to the app so the user can recognize it.</p>
+            <figure class="img-container">
+                <img src="userstory.png" class="rounded mx-auto d-block img-fluid" style="height: auto;" alt="User Journey">
+                <figcaption>Diagram showing the user journey within the application</figcaption>
+            </figure>
+        </section>
+
+        <section id="prototype" class="container my-5">
+            <h2>Wireframing and Prototype</h2>
+			<p style="margin-bottom: 50px;">Based on our findings, we designed a rough wireframe of the app, then we implemented a prototype of the user interface using Figma which allows for the managing of medication reminders, appointments and contact information of doctors. The app will automatically send push notification to users based on the time associated with reminders. The app’s home page displays reminders about medications and appointments, so the user is one click away from accessing those reminders.</p>
+            <figure class="img-container">
+                <img src="sketch.png" class="rounded mx-auto d-block img-fluid" style="height: auto;" alt="Sketch">
+                <figcaption style="margin-bottom: 50px;">Initial Sketch of the App</figcaption>
+            </figure>
+            <figure class="img-container">
+                <img src="wireframe.png" class="rounded mx-auto d-block img-fluid" style="height: auto;" alt="Wireframe">
+                <figcaption style="margin-bottom: 50px;">Wireframe Version of the App</figcaption>
+            </figure>
+            <figure class="img-container">
+                <img src="prototype.png" class="rounded mx-auto d-block img-fluid" style="height: auto;" alt="Prototype">
+                <figcaption style="margin-bottom: 50px;">Final Prototype of the App</figcaption>
+            </figure>
+        </section>
+
+        <section id="usability" class="container my-5"> 
+            <h2>Usability Testing</h2>
+            <p>To collect user data, we will ask the user for permission to collect data from their use of the app. That data can include which features they typically use or if they often leave blank fields when entering information for medications, appointments, and contacts. That will help us identify design problems and how to fix them. We will also be asking for user feedback through in-app notifications, asking them to rate the app and leave comments about it. We will also be relying on the app store’s review section to identify user concerns and criticism. We can then iterate and modify our prototype to fit better user needs. We also need to consider which users we typically collect data from. We can keep track of this through the optional account feature of our app and artificial intelligence to identify the profile of our users based on user-collected data.</p>
+            
+            <p>Though these are passive ways in which we’ll be collecting user data, we also need direct real-time usability testing. To do this, we will invite users of all ages to participate in real-time usability testing. We can use monetary incentives to attract people of all ages. We will note hurdles users go through when using our app. We can directly answer questions such as:</p>
+            
+            <ul>
+                <li>Are any essential features difficult to access?</li>
+                <li>What feelings can be noted from users when navigating our interface?</li>
+                <li>Does the user interface feel unsettling?</li>
+            </ul>
+            
+            <p>During those sessions, we will also propose variants of the prototype with different colors and text sizes. We will be asking them directly which ones they prefer and feel comfortable with. Finally, we will ask to meet them again at a future date, leaving them with a copy of the prototype and encouraging them to use it. At this future date, we will interview those users about their experiences while using the prototype and if they stopped using it altogether. If they did, what are the reasons they can identify?</p>
+			<img src="https://keswickreminder.co.uk/wp-content/uploads/2023/04/Elderly-Man-Pensioner-Smartphone.jpg" class="rounded mx-auto d-block img-fluid" style="height: auto;" alt="Prototype">
+        </section>
+
+        <section id="reflection" class="container my-5"> 
+            <h2>Reflection</h2>
+            <p>Going through the UX design process really helped us understand what users need and how to make the app simple and easy to use. We focused on designing a system that helps people remember their medications and appointments without adding stress to their daily lives.</p>
+            
+            <p>One of the biggest things we learned was that simplicity is key. Some users, like elderly people or busy parents, don’t have time to figure out complicated apps. That’s why we made sure our design is straightforward, with clear reminders and an easy setup process.</p>
+            
+            <p>A challenge we faced was balancing features with usability. We wanted to include reminders, appointment scheduling, and caregiver support, but we also didn’t want the app to feel overwhelming. To solve this, we focused on keeping the most important features front and center while still allowing users to customize settings if they wanted to.</p>
+            
+            <p>Another challenge was making sure the app works for both tech-savvy users and those who aren’t as comfortable with technology. To fix this, we designed it so that family members or caregivers can help set up reminders if needed. We also used simple push notifications so users don’t have to do much—they just get reminded and take their meds.</p>
+            
+            <p>By testing different ideas and improving the design, we made sure the app is practical, easy to use, and actually helpful. In the future, we could add more personalization, voice reminders, or even AI-based tracking to make it even better. The main goal is to keep it simple and useful so people can stay on top of their health without extra hassle.</p>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

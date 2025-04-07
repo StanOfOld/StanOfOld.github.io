@@ -83,33 +83,44 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="container my-5">
-        <h2 class="text-center mb-4">Projects</h2>
-        <div class="row justify-content-center">
-            <!-- Project 1 -->
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="card shadow-sm w-100">
-                    <img src="terraingen/prev1.PNG" class="card-img-top" alt="Terrain Generation">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Terrain Random Generation Concept Demo</h5>
-                        <p class="card-text">Random terrain generation using Perlin noise, a concept used in many games.</p>
-                        <a href="terraingen/terrain-demo.html" class="btn btn-primary">View Project</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Project 2 -->
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="card shadow-sm w-100">
-                    <img src="gesturedetect/prev1.PNG" class="card-img-top" alt="Gesture and Voice Detection">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Gesture and Voice Detection with Virtual Reality</h5>
-                        <p class="card-text">A virtual reality system with head gestures and voice recognition.</p>
-                        <a href="gesturedetect/gesture-detect.html" class="btn btn-primary">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="projects" class="container my-5">
+		<h2 class="text-center mb-4">Projects</h2>
+		<div class="row g-4 justify-content-center">
+			<!-- Project 1 -->
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+				<div class="card shadow-sm w-100">
+					<img src="terraingen/prev1.PNG" class="card-img-top" alt="Terrain Generation">
+					<div class="card-body text-center">
+						<h5 class="card-title">Terrain Random Generation Concept Demo</h5>
+						<p class="card-text">Random terrain generation using Perlin noise, a concept used in many games.</p>
+						<a href="terraingen/terrain-demo.html" class="btn btn-primary">View Project</a>
+					</div>
+				</div>
+			</div>
+			<!-- Project 2 -->
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+				<div class="card shadow-sm w-100">
+					<img src="gesturedetect/prev1.png" class="card-img-top" alt="Gesture and Voice Detection">
+					<div class="card-body text-center">
+						<h5 class="card-title">Gesture and Voice Detection with Virtual Reality</h5>
+						<p class="card-text">A virtual reality system with head gestures and voice recognition.</p>
+						<a href="gesturedetect/gesture-detect.html" class="btn btn-primary">View Project</a>
+					</div>
+				</div>
+			</div>
+			<!-- Project 3 -->
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+				<div class="card shadow-sm w-100">
+					<img src="dailyrehab/prev1.jpg" class="card-img-top" alt="VR Puzzle Game">
+					<div class="card-body text-center">
+						<h5 class="card-title">DailyRehab VR</h5>
+						<p class="card-text">An immersive experience conversing with a cashier without getting distracted.</p>
+						<a href="https://lnkd.in/ezUAKK3m" class="btn btn-primary">View Project</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
     <!-- Contact Section -->
     <section id="contact" class="container my-5">
